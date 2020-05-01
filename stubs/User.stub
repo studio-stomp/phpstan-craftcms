@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\UserQuery;
+
+class User
+{
+    /**
+     * @return UserQuery
+     */
+    public static function find();
+}

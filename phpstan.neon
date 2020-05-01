@@ -1,0 +1,15 @@
+includes:
+    - %currentWorkingDirectory%/vendor/studio-stomp/phpstan-craftcms/extension.neon
+
+parameters:
+    autoload_files:
+            - %currentWorkingDirectory%/vendor/yiisoft/yii2/Yii.php
+            - %currentWorkingDirectory%/vendor/craftcms/cms/src/Craft.php
+
+    paths:
+        - %currentWorkingDirectory%/modules/
+
+    inferPrivatePropertyTypeFromConstructor: true
+
+    ignoreErrors:
+            - '#Constant CRAFT_BASE_PATH not found#' # @todo:refactor: is this the best way or should some extra (bootstrap) file be loaded?

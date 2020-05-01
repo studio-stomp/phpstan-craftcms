@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\MatrixBlockQuery;
+
+class MatrixBlock
+{
+    /**
+     * @return MatrixBlockQuery
+     */
+    public static function find();
+}

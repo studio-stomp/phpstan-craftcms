@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\GlobalSetQuery;
+
+class GlobalSet
+{
+    /**
+     * @return GlobalSetQuery
+     */
+    public static function find();
+}

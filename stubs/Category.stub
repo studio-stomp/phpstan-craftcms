@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\CategoryQuery;
+
+class Category
+{
+    /**
+     * @return CategoryQuery
+     */
+    public static function find();
+}

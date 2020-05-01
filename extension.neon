@@ -1,0 +1,16 @@
+parameters:
+    stubFiles:
+        - stubs/Asset.stub
+        - stubs/AssetQuery.stub
+        - stubs/Category.stub
+        - stubs/CategoryQuery.stub
+        - stubs/Entry.stub
+        - stubs/EntryQuery.stub
+        - stubs/GlobalSet.stub
+        - stubs/GlobalSetQuery.stub
+        - stubs/MatrixBlock.stub
+        - stubs/MatrixBlockQuery.stub
+        - stubs/Tag.stub
+        - stubs/TagQuery.stub
+        - stubs/User.stub
+        - stubs/UserQuery.stub

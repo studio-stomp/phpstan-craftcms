@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\AssetQuery;
+
+class Asset
+{
+    /**
+     * @return AssetQuery
+     */
+    public static function find();
+}

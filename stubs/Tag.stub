@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\TagQuery;
+
+class Tag
+{
+    /**
+     * @return TagQuery
+     */
+    public static function find();
+}

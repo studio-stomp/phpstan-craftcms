@@ -1,0 +1,49 @@
+{
+    "name": "studio-stomp/phpstan-craftcms",
+    "type": "phpstan-extension",
+    "description": "Craft CMS extension for PHPStan",
+    "keywords": [
+        "studio-stomp",
+        "phpstan-craftcms"
+    ],
+    "homepage": "https://github.com/studio-stomp/phpstan-craftcms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Studio Stomp",
+            "email": "hello@studiostomp.nl",
+            "homepage": "https://studiostomp.nl/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "StudioStomp\\PHPStanCraftCMS\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StudioStomp\\PHPStanCraftCMS\\": "tests"
+        }
+    },
+    "scripts": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "phpstan": {
+          "includes": [
+            "extension.neon"
+          ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,13 @@
+<?php
+
+namespace craft\elements;
+
+use craft\elements\db\EntryQuery;
+
+class Entry
+{
+    /**
+     * @return EntryQuery
+     */
+    public static function find();
+}
