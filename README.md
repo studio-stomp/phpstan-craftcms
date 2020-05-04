@@ -19,17 +19,29 @@ $ composer require --dev studio-stomp/phpstan-craftcms
 
 ## Usage
 
+Add `phpstan-craftcms` to the project `phpstan.neon`:
+```neon
+includes:
+    - vendor/studio-stomp/phpstan-craftcms/phpstan.neon
+```
 
+Feel free to check out the base configuration and expand on it with own configuration. For example:
+
+```neon
+includes:
+    - vendor/studio-stomp/phpstan-craftcms/phpstan.neon
+
+parameters:
+
+    level: 2
+
+    ignoreErrors:
+        - '#Call to an undefined method SoapClient::#'
+```
 
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 
