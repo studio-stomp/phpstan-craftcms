@@ -1,12 +1,11 @@
 includes:
-    - %currentWorkingDirectory%/vendor/studio-stomp/phpstan-craftcms/extension.neon
+    - extension.neon
 
 parameters:
     scanFiles:
-            - %currentWorkingDirectory%/vendor/yiisoft/yii2/Yii.php
-            - %currentWorkingDirectory%/vendor/craftcms/cms/src/Craft.php
-
-    paths:
-        - %currentWorkingDirectory%/modules/
+        - %currentWorkingDirectory%/vendor/yiisoft/yii2/Yii.php
+        - %currentWorkingDirectory%/vendor/craftcms/cms/src/Craft.php
+    scanDirectories:
+        - %currentWorkingDirectory%/storage/runtime/compiled_classes/
 
     inferPrivatePropertyTypeFromConstructor: true

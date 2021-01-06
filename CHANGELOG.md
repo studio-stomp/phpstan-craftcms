@@ -4,7 +4,21 @@ All notable changes to `phpstan-craftcms` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.1.1...main)
+## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.0...main)
+
+## [0.2.0](https://github.com/studio-stomp/phpstan-craftcms/compare/0.1.1...0.2.0) - 2021-01-06
+**Two big changes making it easier to get to level 2+ on a Craft CMS project**
+
+### Added
+- Dependabot
+
+### Changed
+- **Resolve configured attributes (Field / FieldLayout) on Elements**
+    - Assume existence of compiled classes to resolve Field-based methods and attributes
+    - TODO: add fallback to just checking project config yaml files (would be harder to get type information though)
+    - TODO: allow changing location of compiled classes
+- Stub `BaseYii` to resolve `$app` as Craft-namespaced Application
+- Leave `paths` config directive to be implemented by project level
 
 ## [0.1.1](https://github.com/studio-stomp/phpstan-craftcms/compare/0.1.0...0.1.1) - 2020-08-27
 

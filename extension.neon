@@ -1,5 +1,6 @@
 parameters:
     stubFiles:
+        - stubs/BaseYii.stub
         - stubs/Asset.stub
         - stubs/AssetQuery.stub
         - stubs/Category.stub
