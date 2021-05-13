@@ -6,6 +6,9 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...main)
 
+### Changed
+- Add PHPStan as a dependency
+
 ## [0.2.1](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.0...0.2.1) - 2021-05-13
 
 ### Changed

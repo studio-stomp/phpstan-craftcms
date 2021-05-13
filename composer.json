@@ -17,16 +17,15 @@
         }
     ],
     "require": {
-        "php" : "^7.3 || ^8.0"
+        "php" : "^7.3 || ^8.0",
+        "phpstan/phpstan": "^0.12.83"
     },
     "require-dev": {
     },
-    "autoload": {
-    },
-    "autoload-dev": {
-    },
     "scripts": {
     },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-main": "1.0-dev"
