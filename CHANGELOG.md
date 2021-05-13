@@ -4,7 +4,12 @@ All notable changes to `phpstan-craftcms` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.0...main)
+## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...main)
+
+## [0.2.1](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.0...0.2.1) - 2021-05-13
+
+### Changed
+- Support PHP 8.0
 
 ## [0.2.0](https://github.com/studio-stomp/phpstan-craftcms/compare/0.1.1...0.2.0) - 2021-01-06
 **Two big changes making it easier to get to level 2+ on a Craft CMS project**

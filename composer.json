@@ -17,19 +17,13 @@
         }
     ],
     "require": {
-        "php" : "~7.3"
+        "php" : "^7.3 || ^8.0"
     },
     "require-dev": {
     },
     "autoload": {
-        "psr-4": {
-            "StudioStomp\\PHPStanCraftCMS\\": "src"
-        }
     },
     "autoload-dev": {
-        "psr-4": {
-            "StudioStomp\\PHPStanCraftCMS\\": "tests"
-        }
     },
     "scripts": {
     },
