@@ -6,8 +6,15 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...main)
 
+### Added
+- Add `roave/security-advisories` package
+
 ### Changed
+- Moved actual extension code to `extension.neon` as `phpstan.neon` should be used for checking this package, not the consumer
 - Add PHPStan as a dependency
+
+### Removed
+- Removed support for PHP 7.3
 
 ## [0.2.1](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.0...0.2.1) - 2021-05-13
 

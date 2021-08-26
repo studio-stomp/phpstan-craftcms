@@ -19,22 +19,30 @@ $ composer require --dev studio-stomp/phpstan-craftcms
 
 ## Usage
 
-Add `phpstan-craftcms` to the project `phpstan.neon`:
+Add `phpstan-craftcms` to the project `phpstan.neon` / `phpstan.neon.dist`:
 ```neon
 includes:
-    - vendor/studio-stomp/phpstan-craftcms/phpstan.neon
+    - vendor/studio-stomp/phpstan-craftcms/extension.neon
+```
+
+Add the level and paths as well to the project `phpstan.neon` / `phpstan.neon.dist`:
+
+```neon
+parameters: 
+    level: max # Or feel free to start at a lower level
+    paths:
+        - src # Common in plugins and other composer loaded packages
+        - modules # Common in Craft CMS project
+        - tests # Common in both
 ```
 
 Feel free to check out the base configuration and expand on it with own configuration. For example:
 
 ```neon
 includes:
-    - vendor/studio-stomp/phpstan-craftcms/phpstan.neon
+    - vendor/studio-stomp/phpstan-craftcms/extension.neon
 
 parameters:
-
-    level: 2
-
     ignoreErrors:
         - '#Call to an undefined method SoapClient::#'
 ```
