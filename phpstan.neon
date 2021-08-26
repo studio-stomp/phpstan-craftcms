@@ -2,10 +2,5 @@ includes:
     - extension.neon
 
 parameters:
-    scanFiles:
-        - %currentWorkingDirectory%/vendor/yiisoft/yii2/Yii.php
-        - %currentWorkingDirectory%/vendor/craftcms/cms/src/Craft.php
     scanDirectories:
         - %currentWorkingDirectory%/storage/runtime/compiled_classes/
-
-    inferPrivatePropertyTypeFromConstructor: true
