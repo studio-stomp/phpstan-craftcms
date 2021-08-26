@@ -4,8 +4,9 @@ All notable changes to `phpstan-craftcms` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...main)
+## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.3.0...main)
 
+## [0.3.0](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...0.3.0) - 2021-08-26
 ### Added
 - Add `roave/security-advisories` package
 
