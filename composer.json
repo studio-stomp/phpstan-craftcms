@@ -17,10 +17,11 @@
         }
     ],
     "require": {
-        "php" : "^7.3 || ^8.0",
-        "phpstan/phpstan": "^0.12.83"
+        "php" : "^7.4|^8.0",
+        "phpstan/phpstan": "^0.12.96"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest"
     },
     "scripts": {
     },
