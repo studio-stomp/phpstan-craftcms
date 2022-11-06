@@ -6,6 +6,9 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## [Unreleased](https://github.com/studio-stomp/phpstan-craftcms/compare/0.3.0...main)
 
+### Changed
+- build: Bump version of `phpstan/phpstan` package
+
 ## [0.3.0](https://github.com/studio-stomp/phpstan-craftcms/compare/0.2.1...0.3.0) - 2021-08-26
 ### Added
 - Add `roave/security-advisories` package
